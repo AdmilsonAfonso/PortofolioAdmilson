@@ -1,0 +1,156 @@
+.sobre{
+    background-color: #1a1f2e;
+    
+}
+.h1-sobre{
+    font-size: 2rem;
+    font-family: normal;
+    text-align: center;
+}
+.sobre-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 3rem 0rem 3rem;
+}
+
+.texto-obre{
+    width: 30rem;
+    text-align: center;
+}
+
+.texto-obre p{
+    font-family: 'Playwrite HU', sans-serif;
+    color: rgb(187, 219, 3);
+    margin-bottom: 1rem;
+}
+
+.texto-obre img{
+    width: 20rem;
+    height: 25rem;
+    border-radius: 50px;    
+}
+
+
+/* Responsividade para telas menores */
+@media (max-width: 735px) {
+
+    .h1-sobre{
+        font-size: 1.5rem;
+    }
+
+.sobre-item{
+    padding: 0.5rem 1rem 0rem 1rem;
+    gap: 1rem;
+}
+
+  .texto-obre p {
+    font-size: 0.8rem;
+}
+
+.texto-obre img {
+    max-width: 15rem;
+    height: auto;
+    border-radius: 20px;
+}
+}
+@media (max-width: 635px) {
+    
+    .sobre-item{
+        padding: 0.5rem 1rem 0rem 1rem;
+        gap: 1rem;
+    }
+    .texto-obre{
+        width: 20rem;
+    }
+    .texto-obre p {
+        font-size: 0.7rem;
+    }
+    
+    .texto-obre img {
+        max-width: 12rem;
+        height: auto;
+        
+    }
+}
+
+@media (max-width: 556px) {
+    
+    .sobre-item{
+        padding: 0.5rem 0.5rem 1rem 0.5rem;
+        gap: 0.5rem;
+    }
+    .texto-obre{
+        width: 15rem;
+    }
+    .texto-obre p {
+        font-size: 0.7rem; 
+  }
+
+.texto-obre img {
+    max-width: 12rem;
+    height: auto;
+
+  }
+}
+
+@media (max-width: 483px) { 
+    .sobre-item{
+        padding: 0.5rem 0.5rem 1rem 0.5rem;
+        gap: 0.5rem;
+    }
+    .texto-obre{
+        width: 13rem;
+    }
+    .texto-obre p {
+        font-size: 0.6rem; 
+  }
+
+.texto-obre img {
+    max-width: 11rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 472px) { 
+    .sobre-item{
+        padding: 0.5rem 0.2rem 1rem 0.2rem;
+        gap: 0.2rem;
+    }
+    .texto-obre{
+        width: 12rem;
+    }
+    .texto-obre p {
+        font-size: 0.6rem; 
+        margin-bottom: 0.2rem;
+  }
+
+.texto-obre img {
+    max-width: 10rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 380px) { 
+    .sobre-item{
+        padding: 0.5rem 0.2rem 1rem 0.2rem;
+       flex-direction: column;
+        gap: 0.2rem;
+    }
+    .texto-obre{
+        width: 18rem;
+    }
+    .texto-obre p {
+        font-size: 0.8rem; 
+        margin-bottom: 0.3rem;
+  }
+
+.texto-obre img {
+    max-width: 15rem;
+    margin-top: 0.5rem;
+    height: auto;
+  }
+}
+
+
+

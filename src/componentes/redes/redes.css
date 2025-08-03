@@ -1,0 +1,16 @@
+.contactos-titulo{
+    display: flex;  
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 2rem;
+}
+
+
+.link-box{
+   background-color: #1a1f2e;
+   border: 2.5px solid #d9fc12ff;
+   border-radius: 10px;
+   width: 4rem;
+   
+}

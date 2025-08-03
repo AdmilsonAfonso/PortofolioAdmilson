@@ -1,0 +1,74 @@
+.habilidade{
+    padding: 0.4rem;
+    background-color:#1a1f2e;
+    color: #d9fc12ff;
+}
+
+.h2-habi{
+    color: #1a1f2e;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.filtros {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.filtros button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #2e3440;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.filtros button.ativo {
+  background-color: rgb(210, 240, 44);
+  color: #1a1f2e;
+  font-weight: bold;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1.2rem;
+  padding: 0 1rem;
+  
+}
+
+.skill-card {
+  background-color: #1a1f2e;
+  padding:0.5rem;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+
+.icon-skill {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+
+@media (max-width: 940px) {
+  .cafe{
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width:510px) {
+  .h2-habi{
+    font-size: 1.5rem;
+  }
+}

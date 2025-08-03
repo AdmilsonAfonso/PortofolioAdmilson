@@ -1,0 +1,15 @@
+.footer {
+  background-color: #1a1f2e;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 14px;
+  border-top: 1px solid #2c3244;
+}
+
+.footer-frase {
+  margin-top: 0.5rem;
+  font-family: 'Playwrite HU', sans-serif;
+  color: rgb(187, 219, 3);
+  opacity: 0.8;
+}

@@ -11,9 +11,6 @@ export const Rotas = () => {
         <Route path='/' element={<Home/>}></Route>
         <Route></Route>
     </Routes>
-    
-    
-    
     </BrowserRouter>
   )
 }
