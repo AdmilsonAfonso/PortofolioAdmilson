@@ -18,14 +18,6 @@ export const projetos = [
     gitLink: "https://github.com/AdmilsonAfonso/EBIOLO"
   },
   {
-    titulo: "Adoção de Animais",
-    imagem: ANIMAIS,
-    descricao: "Painel interativo para Adoção de animais.",
-    ferramentas: [<FaAngular className="icon-angular"/>, <FaJava className="icon-java"/>, <FaDocker className="icon-docker"/>,<SiMysql className="icon-mysql"/>],
-    git:<FaGithub />,
-    gitLink: "https://github.com/AdmilsonAfonso/EmpregaJ-"
-  },
-  {
     titulo: "Ideias",
     imagem: EMPREGA,
     descricao: "Painel interativo para partilha de ideias.",
@@ -41,4 +33,12 @@ export const projetos = [
     git:<FaGithub />,
     gitLink: "https://github.com/AdmilsonAfonso/SpringTodoList"
   },
+   {
+    titulo: "Adoção de Animais",
+    imagem: ANIMAIS,
+    descricao: "Painel interativo para Adoção de animais.",
+    ferramentas: [<FaAngular className="icon-angular"/>, <FaJava className="icon-java"/>, <FaDocker className="icon-docker"/>,<SiMysql className="icon-mysql"/>],
+    git:<FaGithub />,
+    gitLink: "https://github.com/AdmilsonAfonso/EmpregaJ-"
+  }
 ];
